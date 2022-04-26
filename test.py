@@ -70,7 +70,7 @@ u1 = e.readlines()
 e.close()
 
 
-dt = datetime.datetime.now()
+dt = datetime.now()
 dt_str = dt.strftime("%d-%m-%Y  %H:%M:%S")
 s = os.getenv("username")
 
